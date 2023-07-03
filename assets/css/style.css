@@ -1779,3 +1779,13 @@ img{
     width: 350px;
   }
 }
+
+@media(max-width: 390px){
+  .avatar-box img{
+    width: 80px;
+    border-radius: 20px;
+  }
+  .hobby, .hobby img{
+    width: 320px;
+  }
+}
