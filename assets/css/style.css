@@ -1085,7 +1085,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .project-img,
-  .blog-banner-box, .blog-banner-box-2 { height: auto; }
+  .blog-banner-box, .blog-banner-box-2, .hobby { height: auto; }
 
 }
 
@@ -1763,4 +1763,18 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-right: 20px;
   color: lightgrey;
   transition: var(--transition-1);
+}
+
+img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+@media(max-width: 400px){
+  .avatar-box img{
+    width: 80px;
+  }
+  .hobby, .hobby img{
+    width: 350px;
+  }
 }
