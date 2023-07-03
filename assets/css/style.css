@@ -1770,7 +1770,7 @@ img{
   overflow: clip;
 }
 
-@media(max-width: 400px){
+@media(max-width: 450px){
   .avatar-box img{
     width: 80px;
     border-radius: 20px;
