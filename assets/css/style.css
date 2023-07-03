@@ -1773,6 +1773,7 @@ img{
 @media(max-width: 400px){
   .avatar-box img{
     width: 80px;
+    border-radius: 20px;
   }
   .hobby, .hobby img{
     width: 350px;
